@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laboratoire1-SalifDiarra</string>
+    <string name="indiceCourriel">Votre courriel</string>
+    <string name="indiceMotDePasse">Votre mot de passe</string>
+    <string name="texteAfficherMotDePasse">Afficher votre mot de passe</string>
+    <string name="texteBoutonValider">VALIDER MOT DE PASSE</string>
+    <string name="texteMotDePasseInvalide">Le mot de passe n’est pas valide</string>
+    <string name="texteMotDePasseValide">Le mot de passe est valide</string>
+</resources>
