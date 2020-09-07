@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             debutSelection = et_motDePasse.getSelectionStart();
             finSelection = et_motDePasse.getSelectionEnd();
 
+            //Afficher le mot de passe.
             et_motDePasse.setTransformationMethod(null);
 
             //Remettre le curseur là où il était avant la transformation.
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             debutSelection = et_motDePasse.getSelectionStart();
             finSelection = et_motDePasse.getSelectionEnd();
 
+            //Cacher le mot de passe.
             et_motDePasse.setTransformationMethod(new PasswordTransformationMethod());
 
             et_motDePasse.setSelection(debutSelection, finSelection);
