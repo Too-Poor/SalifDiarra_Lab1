@@ -18,6 +18,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        //CECI EST UNE SOLUTION TEMPORAIRE!
+        CheckBox chk_afficherMotDePasse = (CheckBox)findViewById(R.id.chk_afficherMotDePasse);
+        EditText et_courriel = (EditText)findViewById(R.id.et_courriel);
+        EditText et_motDePasse = (EditText)findViewById(R.id.et_motDePasse);
+
+        chk_afficherMotDePasse.setChecked(false);
+        et_courriel.setText("");
+        et_motDePasse.setText("");
     }
 
     public void onClickChk_afficherMotDePasse(View view) {
