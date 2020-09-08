@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Laboratoire1-SalifDiarra</string>
+    <string name="app_name">Lab1-SalifDiarra</string>
     <string name="indiceCourriel">Your email</string>
     <string name="indiceMotDePasse">Your password</string>
     <string name="texteAfficherMotDePasse">Show password</string>
